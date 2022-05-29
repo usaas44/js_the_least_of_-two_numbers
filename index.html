@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>the_least_number</title>
 </head>
+
 <body>
     <script>
-        function showLeastNumber (a,b) {
-            (a > b) ? alert (b) : alert (a);
+        function sayHi() {   // (1) create
+            alert("Hello");
+            return "Hi"; // first time using this, interesting
         }
-        showLeastNumber (3, -1);
-        showLeastNumber (1230, 35894);
-        function showMultiplies (x,n) {
-            alert (x * n)
-        }
-        showMultiplies (21, 23)
-        let firstNumber = prompt ("Firs number");
-        let secondNumber = prompt ("Second number");
-        let result = (firstNumber * secondNumber);
-        alert (result); 
+
+        let func = sayHi ();    // (2) copy
+
+        alert (func);
     </script>
 </body>
+
 </html>
